@@ -1,4 +1,25 @@
-h1 {
-  color: red;
+nav {
+  background-color: #262a2d;
+}
+
+nav.navbar {
+  min-height: 80px;
+}
+
+nav.navbar .navbar-brand {
+  color: black !important;
+}
+
+nav.navbar .navbar-brand .brand-logo {
+  max-height: 72px;
+}
+
+nav.navbar .fa.fa-bars {
+  color: #fff;
+}
+
+nav.navbar .navbar-nav li a {
+  font-weight: 700;
+  color: #fff !important;
 }
 /*# sourceMappingURL=style.css.map */

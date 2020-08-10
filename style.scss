@@ -1,3 +1,30 @@
-h1 {
-  color: red;
+$dark-color: #262a2d;
+$light-color: #fff;
+
+nav {
+  background-color: $dark-color;
+
+  &.navbar {
+    min-height: 80px;
+
+    .navbar-brand {
+      color: black !important;
+      .brand-logo {
+        max-height: 72px;
+      }
+    }
+
+    .fa.fa-bars {
+      color: $light-color;
+    }
+
+    .navbar-nav {
+      li {
+        a {
+          font-weight: 700;
+          color: $light-color !important;
+        }
+      }
+    }
+  }
 }
