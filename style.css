@@ -1,3 +1,9 @@
+/* my stands for margin y */
+.py-container {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
 nav {
   background-color: #262a2d;
 }
@@ -41,5 +47,30 @@ section#portfolio-section {
 
 section#contact-section {
   background-color: purple;
+}
+
+footer#footer-section {
+  background-color: #262a2d;
+}
+
+footer .footer-text {
+  color: #ccc;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+footer .footer-sm-link {
+  padding: 5px;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+footer .footer-sm-link img {
+  height: 24px;
+  width: 24px;
+}
+
+footer .footer-sm-link:hover {
+  opacity: 0.6;
 }
 /*# sourceMappingURL=style.css.map */

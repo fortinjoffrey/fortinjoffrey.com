@@ -1,6 +1,12 @@
 $dark-color: #262a2d;
 $light-color: #fff;
 
+/* my stands for margin y */
+.py-container {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
 nav {
   background-color: $dark-color;
 
@@ -46,5 +52,31 @@ section {
 
   &#contact-section {
     background-color: purple;
+  }
+}
+
+footer {
+  &#footer-section {
+    background-color: $dark-color;
+  }
+
+  .footer-text {
+    color: #ccc;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .footer-sm-link {
+    padding: 5px;
+    transition: opacity 0.2s ease;
+
+    img {
+      height: 24px;
+      width: 24px;
+    }
+
+    &:hover {
+      opacity: 0.6;
+    }
   }
 }
