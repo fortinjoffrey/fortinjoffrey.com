@@ -28,3 +28,23 @@ nav {
     }
   }
 }
+
+section {
+  min-height: 100vh;
+
+  &#header-section {
+    background-color: pink;
+  }
+
+  &#cv-section {
+    background-color: blue;
+  }
+
+  &#portfolio-section {
+    background-color: cyan;
+  }
+
+  &#contact-section {
+    background-color: purple;
+  }
+}
