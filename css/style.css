@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.container-fw-px {
+  width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d-flex.v-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.d-flex.h-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* my stands for margin y */
+.py-container {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+p.my-name {
+  color: white;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 100;
+  font-family: Roboto;
+}
+
+p.welcome-message {
+  color: white;
+  font-size: 83px;
+  line-height: 83px;
+  font-weight: 500;
+  font-family: Montserrat;
+  letter-spacing: 0px;
+}
+
+nav {
+  background-color: #262a2d;
+}
+
+nav.navbar {
+  min-height: 80px;
+}
+
+nav.navbar .navbar-brand {
+  color: black !important;
+}
+
+nav.navbar .navbar-brand .brand-logo {
+  max-height: 72px;
+}
+
+nav.navbar .fa.fa-bars {
+  color: #fff;
+}
+
+nav.navbar .navbar-nav li a {
+  font-weight: 700;
+  color: #fff !important;
+}
+
+nav.navbar-transparent {
+  background: transparent;
+}
+
+section {
+  min-height: 50vh;
+}
+
+section#header-section {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-image: url("../assets/img/header_bg.png");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+section#header-section .header-row {
+  margin-top: -80px;
+}
+
+section#header-section .profile-picture {
+  min-height: 600px;
+  background-image: url("../assets/img/pp1_border_radius_768x768.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+section#header-section p {
+  text-align: center;
+}
+
+section#cv-section {
+  background-color: blue;
+}
+
+section#portfolio-section {
+  background-color: cyan;
+}
+
+section#contact-section {
+  background-color: purple;
+}
+
+footer#footer-section {
+  background-color: #262a2d;
+}
+
+footer .footer-text {
+  color: #ccc;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+footer .footer-sm-link {
+  padding: 5px;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+footer .footer-sm-link img {
+  height: 24px;
+  width: 24px;
+}
+
+footer .footer-sm-link:hover {
+  opacity: 0.6;
+}
+/*# sourceMappingURL=style.css.map */

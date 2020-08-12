@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+$dark-color: #262a2d;
+$light-color: #fff;
+$navbar-height: 80px;
+
+.container-fw-px {
+  width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.d-flex {
+  display: flex;
+
+  &.v-center {
+    align-items: center;
+  }
+
+  &.h-center {
+    justify-content: center;
+  }
+}
+
+/* my stands for margin y */
+.py-container {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+p {
+  &.my-name {
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 100;
+    font-family: Roboto;
+  }
+
+  &.welcome-message {
+    color: white;
+    font-size: 83px;
+    line-height: 83px;
+    font-weight: 500;
+    font-family: Montserrat;
+    letter-spacing: 0px;
+  }
+}
+
+nav {
+  background-color: $dark-color;
+
+  &.navbar {
+    min-height: $navbar-height;
+
+    .navbar-brand {
+      color: black !important;
+      .brand-logo {
+        max-height: 72px;
+      }
+    }
+
+    .fa.fa-bars {
+      color: $light-color;
+    }
+
+    .navbar-nav {
+      li {
+        a {
+          font-weight: 700;
+          color: $light-color !important;
+        }
+      }
+    }
+  }
+
+  &.navbar-transparent {
+    background: transparent;
+  }
+}
+
+section {
+  min-height: 50vh;
+
+  &#header-section {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-image: url("../assets/img/header_bg.png");
+    background-size: cover;
+    background-position: center center;
+
+    height: unquote("100vh");
+
+    .header-row {
+      margin-top: -$navbar-height;
+    }
+
+    .profile-picture {
+      min-height: 600px;
+      background-image: url("../assets/img/pp1_border_radius_768x768.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    p {
+      // color: white;
+      text-align: center;
+    }
+  }
+
+  &#cv-section {
+    background-color: blue;
+  }
+
+  &#portfolio-section {
+    background-color: cyan;
+  }
+
+  &#contact-section {
+    background-color: purple;
+  }
+}
+
+footer {
+  &#footer-section {
+    background-color: $dark-color;
+  }
+
+  .footer-text {
+    color: #ccc;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .footer-sm-link {
+    padding: 5px;
+    transition: opacity 0.2s ease;
+
+    img {
+      height: 24px;
+      width: 24px;
+    }
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
