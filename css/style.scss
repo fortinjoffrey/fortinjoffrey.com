@@ -5,6 +5,12 @@ $dark-color: #262a2d;
 $light-color: #fff;
 $navbar-height: 80px;
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1160px;
+  }
+}
+
 .container-fw-px {
   width: 100%;
   padding-right: 10%;
@@ -116,7 +122,7 @@ section {
   }
 
   &#portfolio-section {
-    background-color: cyan;
+    background-color: white;
   }
 
   &#contact-section {

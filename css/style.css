@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1160px;
+  }
+}
+
 .container-fw-px {
   width: 100%;
   padding-right: 10%;
@@ -111,7 +117,7 @@ section#cv-section {
 }
 
 section#portfolio-section {
-  background-color: cyan;
+  background-color: white;
 }
 
 section#contact-section {

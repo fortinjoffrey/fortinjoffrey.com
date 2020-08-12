@@ -1,0 +1,131 @@
+h2.title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #283269;
+
+  position: relative;
+  font-size: 40px;
+
+  @media (min-width: 768px) {
+    &:before {
+      content: "";
+      position: absolute;
+      left: -100px;
+      top: 50%;
+      width: 60px;
+      height: 4px;
+      background-color: #e63264;
+    }
+
+    margin-left: 100px;
+  }
+}
+
+.card {
+  &.project {
+    background-size: cover;
+    background-position: 50%;
+    overflow: hidden;
+    height: 340px;
+    padding: 40px 40px 0px 40px;
+    border-radius: 10px;
+    border: none;
+
+    &#fitintime {
+      background-image: url("/assets/img/apps/fitintime/fitintime_bg.png");
+    }
+
+    &#youtube-clone {
+      background-image: url("/assets/img/apps/youtube_clone/youtube_clone_bg.png");
+    }
+
+    &#instagram-clone {
+      background-image: url("/assets/img/apps/instagram_clone/instagram_clone_bg.png");
+    }
+
+    &#daily-exercises-ui {
+      background-image: url("/assets/img/apps/daily_exercises_ui/daily_exercises_ui_bg.png");
+    }
+
+    &#job-finder-ui {
+      background-image: url("/assets/img/apps/job_finder_ui/job_finder_ui_bg.png");
+    }
+
+    &#onboarding-ui {
+      background-image: url("/assets/img/apps/onboarding_ui/onboarding_ui_bg.png");
+    }
+
+    @media (min-width: 576px) {
+      height: 360px;
+    }
+
+    .card-body {
+      .app-title {
+        color: white;
+
+        a {
+          color: white;
+        }
+      }
+
+      .platforms {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .platform-badge {
+          display: inline-block;
+          padding: 8px 9px;
+          font-weight: 700;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: baseline;
+          border-radius: 4px;
+          opacity: 0.6;
+          line-height: 20px;
+          background-color: #ffffff;
+          color: #666365;
+        }
+      }
+
+      .project-description {
+        color: #ffffff;
+        font-size: 16px;
+        letter-spacing: 0;
+        margin-top: 0;
+        margin-bottom: 14px;
+        font-weight: 500 !important;
+      }
+
+      .img-phone {
+        display: none;
+        width: 440px;
+        top: -40px;
+        right: 15px;
+        position: absolute;
+
+        @media (min-width: 992px) {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.btn {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 1rem;
+  font-size: 14px;
+}
+
+.btn-white {
+  background-color: #fff;
+}
+
+.details-btn {
+  color: #283269;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+/////////////////////////////////////////////////////////////////////
