@@ -1,26 +1,3 @@
-h2.title {
-  font-size: 50px;
-  font-weight: 700;
-  color: #283269;
-
-  position: relative;
-  font-size: 40px;
-
-  @media (min-width: 768px) {
-    &:before {
-      content: "";
-      position: absolute;
-      left: -100px;
-      top: 50%;
-      width: 60px;
-      height: 4px;
-      background-color: #e63264;
-    }
-
-    margin-left: 100px;
-  }
-}
-
 .card {
   &.project {
     background-size: cover;
@@ -30,6 +7,7 @@ h2.title {
     padding: 40px 40px 0px 40px;
     border-radius: 10px;
     border: none;
+    margin-bottom: 3rem;
 
     &#fitintime {
       background-image: url("/assets/img/apps/fitintime/fitintime_bg.png");

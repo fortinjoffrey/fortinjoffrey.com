@@ -89,7 +89,29 @@ nav {
 }
 
 section {
-  min-height: 50vh;
+  min-height: 10vh;
+
+  h2.title {
+    font-size: 43px;
+    font-weight: 700;
+    color: #283269;
+
+    position: relative;
+    margin-bottom: 5rem;
+
+    @media (min-width: 768px) {
+      &:before {
+        content: "";
+        position: absolute;
+        left: -100px;
+        top: 50%;
+        width: 60px;
+        height: 4px;
+        background-color: #ff4655;
+      }
+      margin-left: 100px;
+    }
+  }
 
   &#header-section {
     background-color: black;
@@ -111,22 +133,39 @@ section {
       background-repeat: no-repeat;
     }
 
+    img {
+      text-align: center;
+    }
+
     p {
-      // color: white;
       text-align: center;
     }
   }
 
   &#cv-section {
-    background-color: blue;
-  }
-
-  &#portfolio-section {
-    background-color: white;
+    .profile-picture {
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem;
+    }
   }
 
   &#contact-section {
     background-color: purple;
+  }
+}
+
+.short-divider {
+  width: 50%;
+  height: 3px;
+  background-color: #f3f3f5;
+
+  &.centered {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

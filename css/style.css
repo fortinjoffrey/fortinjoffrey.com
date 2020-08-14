@@ -85,7 +85,30 @@ nav.navbar-transparent {
 }
 
 section {
-  min-height: 50vh;
+  min-height: 10vh;
+}
+
+section h2.title {
+  font-size: 43px;
+  font-weight: 700;
+  color: #283269;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  section h2.title {
+    margin-left: 100px;
+  }
+  section h2.title:before {
+    content: "";
+    position: absolute;
+    left: -100px;
+    top: 50%;
+    width: 60px;
+    height: 4px;
+    background-color: #ff4655;
+  }
 }
 
 section#header-section {
@@ -108,20 +131,36 @@ section#header-section .profile-picture {
   background-repeat: no-repeat;
 }
 
+section#header-section img {
+  text-align: center;
+}
+
 section#header-section p {
   text-align: center;
 }
 
-section#cv-section {
-  background-color: blue;
-}
-
-section#portfolio-section {
-  background-color: white;
+section#cv-section .profile-picture {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
 }
 
 section#contact-section {
   background-color: purple;
+}
+
+.short-divider {
+  width: 50%;
+  height: 3px;
+  background-color: #f3f3f5;
+}
+
+.short-divider.centered {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer#footer-section {
