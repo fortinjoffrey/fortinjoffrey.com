@@ -9,6 +9,10 @@
     border: none;
     margin-bottom: 3rem;
 
+    &.last {
+      margin-bottom: 0rem;
+    }
+
     &#fitintime {
       background-image: url("/assets/img/apps/fitintime/fitintime_bg.png");
     }

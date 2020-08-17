@@ -9,6 +9,10 @@
   margin-bottom: 3rem;
 }
 
+.card.project.last {
+  margin-bottom: 0rem;
+}
+
 .card.project#fitintime {
   background-image: url("/assets/img/apps/fitintime/fitintime_bg.png");
 }
