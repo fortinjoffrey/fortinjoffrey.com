@@ -1,11 +1,15 @@
 # fortinjoffrey.com
 
-![](screenshots/header.png)
+![](screenshots/1.png)
 
-![](screenshots/profile.png)
+![](screenshots/2.png)
 
-![](screenshots/portfolio_1.png)
+![](screenshots/3.png)
 
-![](screenshots/portfolio_2.png)
+![](screenshots/4.png)
 
-![](screenshots/contact_form.png)
+![](screenshots/5.png)
+
+![](screenshots/6.png)
+
+![](screenshots/7.png)
