@@ -76,6 +76,14 @@
         margin-top: 0;
         margin-bottom: 14px;
         font-weight: 500 !important;
+
+        .project-description-extended {
+          display: none;
+
+          @media (min-width: 992px) {
+            display: inline;
+          }
+        }
       }
 
       .img-phone {

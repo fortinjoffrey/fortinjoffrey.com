@@ -79,6 +79,16 @@
   font-weight: 500 !important;
 }
 
+.card.project .card-body .project-description .project-description-extended {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .card.project .card-body .project-description .project-description-extended {
+    display: inline;
+  }
+}
+
 .card.project .card-body .img-phone {
   display: none;
   width: 440px;
