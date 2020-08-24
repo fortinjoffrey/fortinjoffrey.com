@@ -83,7 +83,7 @@
   display: none;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   .card.project .card-body .project-description .project-description-extended {
     display: inline;
   }
@@ -108,6 +108,16 @@
   line-height: 50px;
   padding: 0 1rem;
   font-size: 14px;
+}
+
+.btn .project-demo-extended {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .btn .project-demo-extended {
+    display: inline;
+  }
 }
 
 .btn-white {
