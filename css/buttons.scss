@@ -24,10 +24,18 @@ $transition: 0.3s ease-out all;
     position: relative;
     margin: 10px 0;
     &.header-btn-left {
-      margin-right: 2%;
+      margin-right: 0%;
+
+      @media (min-width: 768px) {
+        margin-right: 2%;
+      }
     }
     &.header-btn-right {
-      margin-left: 2%;
+      margin-left: 0%;
+
+      @media (min-width: 768px) {
+        margin-left: 2%;
+      }
     }
     &.white:hover > p {
       color: $white;

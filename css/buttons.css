@@ -28,11 +28,23 @@
 }
 
 .buttons-row a.header-btn-left {
-  margin-right: 2%;
+  margin-right: 0%;
+}
+
+@media (min-width: 768px) {
+  .buttons-row a.header-btn-left {
+    margin-right: 2%;
+  }
 }
 
 .buttons-row a.header-btn-right {
-  margin-left: 2%;
+  margin-left: 0%;
+}
+
+@media (min-width: 768px) {
+  .buttons-row a.header-btn-right {
+    margin-left: 2%;
+  }
 }
 
 .buttons-row a.white:hover > p {
