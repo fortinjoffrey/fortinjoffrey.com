@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 $dark-color: #262a2d;
 $light-color: #fff;
@@ -117,7 +117,7 @@ section {
 
     @media (min-width: 768px) {
       &:before {
-        content: "";
+        content: '';
         position: absolute;
         left: -100px;
         top: 50%;
@@ -132,11 +132,11 @@ section {
   &#header-section {
     background-color: black;
     background-repeat: no-repeat;
-    background-image: url("../assets/img/header_bg.png");
+    background-image: url('../assets/img/header_bg.png');
     background-size: cover;
     background-position: center center;
 
-    height: unquote("100vh");
+    height: unquote('100vh');
 
     .header-row {
       margin-top: -$navbar-height;
@@ -144,7 +144,7 @@ section {
 
     .profile-picture {
       min-height: 600px;
-      background-image: url("../assets/img/pp1_border_radius_768x768.png");
+      background-image: url('../assets/img/pp1_border_radius_768x768.png');
       background-size: contain;
       background-repeat: no-repeat;
     }

@@ -79,7 +79,7 @@
 }
 
 .buttons-row a:after, .buttons-row a:before {
-  content: "";
+  content: '';
   width: 1px;
   position: absolute;
   height: 8px;
@@ -120,7 +120,7 @@
 }
 
 .buttons-row a p span.base:before {
-  content: "";
+  content: '';
   width: 2px;
   height: 2px;
   left: -1px;
@@ -154,7 +154,7 @@
 }
 
 .buttons-row a p span.text:after {
-  content: "";
+  content: '';
   width: 4px;
   height: 4px;
   right: 0;

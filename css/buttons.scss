@@ -62,7 +62,7 @@ $transition: 0.3s ease-out all;
     }
     &:after,
     &:before {
-      content: "";
+      content: '';
       width: 1px;
       position: absolute;
       height: 8px;
@@ -94,7 +94,7 @@ $transition: 0.3s ease-out all;
         left: 0;
         border: 1px solid $pink;
         &:before {
-          content: "";
+          content: '';
           width: 2px;
           height: 2px;
           left: -1px;
@@ -122,7 +122,7 @@ $transition: 0.3s ease-out all;
         left: 0;
         top: 0;
         &:after {
-          content: "";
+          content: '';
           width: 4px;
           height: 4px;
           right: 0;

@@ -1,14 +1,14 @@
-$(".navbar a, .buttons-row a").on("click", function (e) {
-  if (this.hash !== "") {
-    e.preventDefault();
+$('.navbar a, .buttons-row a').on('click', function (e) {
+  if (this.hash !== '') {
+    e.preventDefault()
 
-    const hash = this.hash;
+    const hash = this.hash
 
-    $("html, body").animate(
+    $('html, body').animate(
       {
         scrollTop: $(hash).offset().top,
       },
       800
-    );
+    )
   }
-});
+})
